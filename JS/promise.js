@@ -64,3 +64,5 @@ async function f1() {
 }
 
 console.log("I am after all the functions");
+
+f1();
