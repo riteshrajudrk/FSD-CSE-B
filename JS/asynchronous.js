@@ -15,10 +15,6 @@ function getData(){
 function display(){
     setTimeout(()=> console.log("display"),2000);
 }
-register();
-sendEmail();
-login();
-getData();
-display();
+
 
 console.log("I am after all the functions");
