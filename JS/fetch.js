@@ -1,18 +1,20 @@
-const url = "https://api.github.com/users/riteshrajudrk";
+// const url = "https://api.github.com/users/rsaxena4147"
+
+const url = "https://dummyjson.com/users?limit=2"
 const res = fetch(url)
+
 res.then((resp) => {
-   return  resp.json();
+  return resp.json()
 })
-.then((data) => {
-    console.log("data : ", data);
-})
-.catch((err) => {
-    console.log("error : ",err);
-})
-.finally(()=>{
-    console.log("Last Statement");
-})
-
-const mainContainer = document.getElementById("main-cont");
-mainContainer.innerText = data;
-
+  .then((data) => {
+    data.users.forEach((da) => {
+      console.log("Name:", da.firstName);
+      console.log("Email:", da.email);
+      console.log("ip:", da.ip);
+      console.log("Mac Address:", da.macAddress);
+      console.log("**************************8")
+    });
+  })
+  .catch((err) => {
+    console.log("ERRPR", err);
+  })
