@@ -1,0 +1,29 @@
+{
+  "name": "fsd-cse-b",
+  "version": "1.0.0",
+  "description": "my first react app using npm",
+  
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshrajudrk/FSD-CSE-B.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ritesh Kumar",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/riteshrajudrk/FSD-CSE-B/issues"
+  },
+  "homepage": "https://github.com/riteshrajudrk/FSD-CSE-B#readme",
+  "dependencies": {
+    "parcel": "^2.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
