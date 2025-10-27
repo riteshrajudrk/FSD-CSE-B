@@ -1,0 +1,19 @@
+.card{
+    width: 300px;
+    /* height: 300px; */
+    background-color: wheat;
+    color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.bookimg{
+    width: 200px;
+}
+
+.booklist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+}

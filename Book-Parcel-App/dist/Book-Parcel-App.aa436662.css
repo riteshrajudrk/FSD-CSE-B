@@ -1,0 +1,20 @@
+.card {
+  color: red;
+  text-align: center;
+  background-color: wheat;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.bookimg {
+  width: 200px;
+}
+
+.booklist {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+}
+/*# sourceMappingURL=Book-Parcel-App.aa436662.css.map */
