@@ -1,0 +1,5 @@
+.bookmark-btn{
+  border-radius:8px;padding:8px 10px;border:none;cursor:pointer;background:#eef2ff;color:var(--accent);
+}
+.bookmark-btn.booked{background:#2563eb;color:white}
+.bookmark-btn:disabled{opacity:0.7;cursor:not-allowed}

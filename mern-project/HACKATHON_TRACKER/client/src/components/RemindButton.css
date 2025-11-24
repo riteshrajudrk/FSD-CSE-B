@@ -1,0 +1,4 @@
+.remind-btn{border-radius:8px;padding:8px 10px;border:none;cursor:pointer;background:#f3f4f6}
+.remind-pop{position:absolute;z-index:40;padding:12px;margin-top:8px;min-width:220px}
+.remind-wrap{position:relative}
+.remind-pop input{width:100%;padding:8px;border-radius:8px;border:1px solid #e6e7eb}

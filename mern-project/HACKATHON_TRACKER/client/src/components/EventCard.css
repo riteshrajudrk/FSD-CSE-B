@@ -1,0 +1,15 @@
+.event-card{padding:16px;border-radius:12px}
+.event-top{justify-content:space-between}
+.event-title{margin:0;font-size:18px}
+.event-title .link{text-decoration:none;color:var(--accent)}
+.desc{margin-top:12px;color:var(--muted)}
+.tags{margin-top:12px;flex-wrap:wrap}
+.tag{
+  background:#eef2ff;
+  color:var(--accent);
+  padding:6px 8px;
+  border-radius:8px;
+  font-size:13px;
+  margin-right:8px;
+}
+.actions{align-items:flex-end}
